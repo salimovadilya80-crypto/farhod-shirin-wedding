@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="uz">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f2ec">
+  <meta name="description" content="Farhod & Shirin — to'y taklifnomasi">
+  <title>Farhod & Shirin | To'y taklifnomasi</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Envelope / opening screen -->
+  <section id="opening" class="opening-screen">
+    <div class="opening-glow"></div>
+    <div class="envelope-wrap">
+      <div class="envelope" id="envelope" role="button" tabindex="0" aria-label="Taklifnomani ochish">
+        <div class="envelope-back"></div>
+        <div class="envelope-letter">
+          <div class="letter-inner">
+            <span class="mini-title">WEDDING INVITATION</span>
+            <span class="letter-names">FARHOD <i>&</i> SHIRIN</span>
+            <span class="letter-date">01 • 11 • 2026</span>
+          </div>
+        </div>
+        <div class="envelope-flap"></div>
+        <div class="wax-seal">♥</div>
+      </div>
+      <button id="openBtn" class="open-btn">Taklifnomani ochish <span>♡</span></button>
+      <p class="tap-hint">Taklifnomani ochish uchun bosing</p>
+    </div>
+  </section>
+
+  <!-- Main invitation -->
+  <main id="invitation" class="invitation hidden">
+
+    <button id="musicBtn" class="music-btn" aria-label="Musiqani yoqish yoki o'chirish">
+      <span class="music-icon">♪</span>
+      <span id="musicText">Musiqa</span>
+    </button>
+
+    <section class="hero section">
+      <div class="hero-photo">
+        <img src="assets/hero.jpg" alt="Farhod va Shirin">
+      </div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content reveal">
+        <p class="eyebrow">WEDDING DAY</p>
+        <div class="rings-icon">♢</div>
+        <h1>Farhod <span>&</span> Shirin</h1>
+        <p class="hero-date">1 Noyabr 2026</p>
+        <p class="hero-location">Osh shahri · «Abu-Dabi» restorani</p>
+      </div>
+      <div class="scroll-note">Pastga suring <span>↓</span></div>
+    </section>
+
+    <section class="intro section paper-section">
+      <div class="decor decor-left">✽</div>
+      <div class="container reveal">
+        <p class="eyebrow">SIZNI KUTAMIZ</p>
+        <h2>Bizning baxtli kunimizga<br>aziz mehmonimiz bo'ling!</h2>
+        <div class="ornament">──────── ♡ ────────</div>
+        <p class="body-copy">
+          Hurmatli <strong>Sarvar Gulzoda!</strong><br><br>
+          Sizni hayotimizdagi eng quvonchli va unutilmas kunlardan biri —
+          to'yimizga chin qalbimizdan taklif qilamiz.
+          Tashrif buyurib, bizga aziz mehmon bo'lib ketishingizni istaymiz.
+        </p>
+        <p class="signature">Farhod & Shirin</p>
+      </div>
+      <div class="decor decor-right">✽</div>
+    </section>
+
+    <section class="details section">
+      <div class="container reveal">
+        <p class="eyebrow">TO'YIMIZ</p>
+        <h2>Baxtli kunimiz</h2>
+
+        <div class="detail-grid">
+          <div class="detail-card">
+            <div class="detail-icon">▣</div>
+            <span>SANA</span>
+            <strong>1 Noyabr 2026</strong>
+          </div>
+          <div class="detail-card">
+            <div class="detail-icon">◷</div>
+            <span>VAQT</span>
+            <strong>16:00</strong>
+          </div>
+          <div class="detail-card">
+            <div class="detail-icon">⌖</div>
+            <span>MANZIL</span>
+            <strong>«Abu-Dabi» restorani</strong>
+            <small>Osh shahri</small>
+          </div>
+        </div>
+
+        <div class="countdown-wrap">
+          <p class="countdown-title">To'yimizgacha</p>
+          <div class="countdown" id="countdown">
+            <div><strong id="days">00</strong><span>kun</span></div>
+            <div><strong id="hours">00</strong><span>soat</span></div>
+            <div><strong id="minutes">00</strong><span>daqiqa</span></div>
+            <div><strong id="seconds">00</strong><span>soniya</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="photo-feature section">
+      <div class="feature-image reveal">
+        <img src="assets/hands-rings.jpg" alt="Nikoh uzuklari">
+      </div>
+      <div class="feature-text reveal">
+        <p class="eyebrow">LOVE STORY</p>
+        <h2>Ikki qalb,<br>bitta hikoya.</h2>
+        <p>Biz uchun bu kun yangi va go'zal hayot sahifasining boshlanishidir.</p>
+        <div class="small-ornament">♡</div>
+      </div>
+    </section>
+
+    <section class="gallery section">
+      <div class="container reveal">
+        <p class="eyebrow">OUR MOMENTS</p>
+        <h2>Bizning lahzalarimiz</h2>
+        <div class="gallery-grid">
+          <button class="gallery-item tall" data-full="assets/rings-frame.jpg">
+            <img src="assets/rings-frame.jpg" alt="To'y surati">
+          </button>
+          <button class="gallery-item" data-full="assets/hero.jpg">
+            <img src="assets/hero.jpg" alt="Kelin va kuyov">
+          </button>
+          <button class="gallery-item" data-full="assets/hands-rings.jpg">
+            <img src="assets/hands-rings.jpg" alt="Uzuklar">
+          </button>
+          <button class="gallery-item wide" data-full="assets/invitation-card.jpg">
+            <img src="assets/invitation-card.jpg" alt="Taklifnoma dizayni">
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="map-section section">
+      <div class="container reveal">
+        <p class="eyebrow">MANZIL</p>
+        <h2>«Abu-Dabi» restorani</h2>
+        <p>Osh shahri</p>
+        <a class="map-btn" target="_blank" rel="noopener"
+           href="https://www.google.com/maps/search/?api=1&query=Abu-Dabi+restorani+Osh+Kyrgyzstan">
+          📍 Yo'nalishni ko'rish
+        </a>
+      </div>
+    </section>
+
+    <section class="final section">
+      <div class="final-bg"></div>
+      <div class="final-content reveal">
+        <p class="eyebrow">SIZNI KUTAMIZ</p>
+        <h2>Bizning quvonchimizga<br>siz ham sherik bo'ling!</h2>
+        <div class="ornament">──────── ♡ ────────</div>
+        <p>1 Noyabr 2026 · 16:00</p>
+        <h3>Farhod & Shirin</h3>
+        <button class="back-top" id="backTop">↑ Yuqoriga</button>
+      </div>
+    </section>
+  </main>
+
+  <!-- Gallery lightbox -->
+  <div id="lightbox" class="lightbox" aria-hidden="true">
+    <button id="closeLightbox" class="close-lightbox" aria-label="Yopish">×</button>
+    <img id="lightboxImg" src="" alt="">
+  </div>
+
+  <audio id="weddingAudio" loop preload="auto">
+    <source src="assets/wedding-music.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
